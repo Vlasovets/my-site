@@ -149,17 +149,17 @@ params:
       
       Core competences:
       
-      > Software engineering (Python, Docker, Git)
+      a) Software engineering (Python, Docker, Git)
       
-      > Machine learning (Scikit-learn, Numpy, PyTorch)
+      b) Machine learning (Scikit-learn, Numpy, PyTorch)
       
-      > High performance computing (Shell, Slurm)
+      c) High performance computing (Shell, Slurm)
       
-      > Visualization (Plotly, Bokeh, JavaScript)
+      d) Visualization (Plotly, Bokeh, JavaScript)
       
-      > Statistics (R, SciPy, Stan)
+      e) Statistics (R, SciPy, Stan)
       
-      > Microbiome data analysis (QIIME2, Pandas)
+      f) Microbiome data analysis (QIIME2, Pandas)
 
 #    skills:
 #      enable: true
