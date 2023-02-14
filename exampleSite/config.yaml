@@ -149,15 +149,10 @@ params:
       title: "Core competences:"
       items:
         - "Software engineering (Python, Docker, Git)"
-        |
         - "Machine learning (Scikit-learn, Numpy, PyTorch)"
-        |
         - "High performance computing (Shell, Slurm)"
-        |
         - "Visualization (Plotly, Bokeh, JavaScript)"
-        |
         - "Statistics (R, SciPy, Stan)"
-        |
         - "Microbiome data analysis (QIIME2, Pandas)"
 
   # Experience
@@ -173,9 +168,7 @@ params:
           enable: true
           name: "View research"
           url: https://scholar.google.com/citations?user=ouy_AM4AAAAJ&hl=en
-        content: "Thesis:"
-        |
-        "Causal estimation and simulation methods for gut microbiome networks 
+        content: "Thesis: Causal estimation and simulation methods for gut microbiome networks 
         with applications in epidemiology and health."
 
       - job: "Data Scientist"
@@ -194,7 +187,7 @@ params:
           - Advanced topics in UI
           - Methods of data mining
           - Machine learning
-          |
+          
           Extracurricular Activities
             - Ambassador of EIT Digital Academy (2019-2021).
 
@@ -253,10 +246,10 @@ params:
           Major
           - 80% of Computer Science courses
           - 20% of Business and Economics courses
-          |
+          
           Minor
           - Data Mining
-          |
+          
           Extracurricular Activities
             - The Chief Executive Officer of HSE Sport Club. 
             - The Chairman of the HSE Student Campus Council.
