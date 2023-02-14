@@ -149,6 +149,7 @@ params:
     skills:
       enable: true
       title: "Core competences:"
+      |
       items:
         - "Software engineering (Python, Docker, Git)"
 
