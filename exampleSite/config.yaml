@@ -73,7 +73,7 @@ params:
 
   theme:
     # disableThemeToggle: true
-    # defaultTheme: "light" # dark
+    defaultTheme: "light" # dark
 
   font:
     fontSize: 1rem # default: 1rem
@@ -120,7 +120,7 @@ params:
     title: "Oleg Vlasovets"
     subtitle: "Data Scientist / Guitarist"
     content: "Currently studying bacteria in the human's gut."
-    image: /images/guitar.png
+    image: /images/projects/guitar.png
     roundImage: true # Make hero image circular | default false
     button:
       enable: true
@@ -141,7 +141,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: /images/only_face.png
+    image: /images/projects/only_face.png
     content: |-
       I'm a data scientist who is fascinated by microbes and their impact on human health. I 
       develop methods for describing this link and build open-source software that assists 
