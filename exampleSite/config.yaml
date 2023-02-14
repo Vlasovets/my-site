@@ -146,16 +146,31 @@ params:
       I'm a data scientist who is fascinated by microbes and their impact on human health. I 
       develop methods for describing this link and build open-source software that assists 
       researchers all over the world in performing cutting-edge microbiome data analysis.
-    skills:
-      enable: true
-      title: "Core competences:"
-      items:
-        - "Software engineering (Python, Docker, Git)"
-        - "Machine learning (Scikit-learn, Numpy, PyTorch)"
-        - "High performance computing (Shell, Slurm)"
-        - "Visualization (Plotly, Bokeh, JavaScript)"
-        - "Statistics (R, SciPy, Stan)"
-        - "Microbiome data analysis (QIIME2, Pandas)"
+      
+      Core competences:
+      
+      Software engineering (Python, Docker, Git)
+      
+      Machine learning (Scikit-learn, Numpy, PyTorch)
+      
+      High performance computing (Shell, Slurm)
+      
+      Visualization (Plotly, Bokeh, JavaScript)
+      
+      Statistics (R, SciPy, Stan)
+      
+      Microbiome data analysis (QIIME2, Pandas)
+
+#    skills:
+#      enable: true
+#      title: "Core competences:"
+#      items:
+#        - "Software engineering (Python, Docker, Git)"
+#        - "Machine learning (Scikit-learn, Numpy, PyTorch)"
+#        - "High performance computing (Shell, Slurm)"
+#        - "Visualization (Plotly, Bokeh, JavaScript)"
+#        - "Statistics (R, SciPy, Stan)"
+#        - "Microbiome data analysis (QIIME2, Pandas)"
 
   # Experience
   experience:
