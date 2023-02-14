@@ -110,7 +110,7 @@ params:
       disableExperience: false
       disableEducation: false
       disableProjects: false
-      disablePublications: false
+      disableAchievements: false
       disableContact: false
   # Hero
   hero:
