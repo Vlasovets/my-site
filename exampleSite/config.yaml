@@ -22,18 +22,18 @@ markup:
     renderer:
       unsafe: true
 
-Menus:
-  main:
-    - identifier: blog
-      name: Blog
-      title: Blog posts
-      url: /blogs
-      weight: 1
-    - identifier: gallery
-      name: Gallery
-      title: Blog posts
-      url: /gallery
-      weight: 2
+#Menus:
+#  main:
+#    - identifier: blog
+#      name: Blog
+#      title: Blog posts
+#      url: /blogs
+#      weight: 1
+#    - identifier: gallery
+#      name: Gallery
+#      title: Blog posts
+#      url: /gallery
+#      weight: 2
     #Dropdown menu
     # - identifier: dropdown
     #   title: Example dropdown menu
@@ -53,10 +53,10 @@ Menus:
     #   weight: 2
 
 params:
-  title: "Oleg Vlasovets"
-  description: Portfolio
+  title: "home"
+#  description: Portfolio
   # staticPath: ""  # The path to serve the static files from
-  favicon: "/fav.png"
+#  favicon: "/fav.png"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -103,25 +103,25 @@ params:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
     # showBrandLogo: false # Show brand logo in nav bar | default is true
-    brandName: "Oleg Vlasovets" # Brand name for the brand | default is the title variable
-    disableSearch: false
+    brandName: "home" # Brand name for the brand | default is the title variable
+    disableSearch: True
     menus:
       disableAbout: false
       disableExperience: false
       disableEducation: false
       disableProjects: false
-      disableAchievements: false
+      disablePublications: false
       disableContact: false
 
   # Hero
   hero:
     enable: true
-    intro: "Hi, my name is"
-    title: "Oleg Vlasovets."
-    subtitle: "Data scientist"
-    content: "Currently studying bacteria in our gut with causal and simulation methods."
-    image: /images/only_face.jpg
-    # roundImage: true # Make hero image circular | default false
+#    intro: "Hi, my name is"
+    title: "Oleg Vlasovets"
+    subtitle: "Data Scientist / Guitarist"
+    content: "Currently studying bacteria in the human's gut."
+    image: "/images/guitar.png"
+    roundImage: true # Make hero image circular | default false
     button:
       enable: true
       name: "CV"
@@ -141,21 +141,23 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/only_face.jpg"
+    image: "/images/only_face.png"
     content: |-
-      I'm a data scientist with a passion for studying bacteria and their relationship to our 
-      health. I develop methods explaining these relationships and build open-source 
-      software helping researchers all around the world to perform cutting edge microbiome data 
-      analysis.
+      I'm a data scientist who is fascinated by microbes and their impact on human health. I develop methods for describing this link and open-source software that assists researchers all over the world in performing cutting-edge microbiome data analysis.
     skills:
       enable: true
       title: "Core competences:"
       items:
         - "Software engineering (Python, Docker, Git)"
+        |
         - "Machine learning (Scikit-learn, Numpy, PyTorch)"
+        |
         - "High performance computing (Shell, Slurm)"
+        |
         - "Visualization (Plotly, Bokeh, JavaScript)"
+        |
         - "Statistics (R, SciPy, Stan)"
+        |
         - "Microbiome data analysis (QIIME2, Pandas)"
 
   # Experience
@@ -164,14 +166,17 @@ params:
     # title: "Custom Name"
     items:
       - job: "PhD Candidate"
-        company: "Helmholtz Munich / LMU"
+        company: "Helmholtz Munich"
         companyUrl: https://www.helmholtz-munich.de/en/
         date: "Jan 2021 - present"
         featuredLink:
           enable: true
           name: "View research"
           url: https://scholar.google.com/citations?user=ouy_AM4AAAAJ&hl=en
-        content: "Causal estimation and simulation methods for gut microbiome networks with applications in epidemiology and health."
+        content: "Thesis:"
+        |
+        "Causal estimation and simulation methods for gut microbiome networks 
+        with applications in epidemiology and health."
 
       - job: "Data Scientist"
         company: "Napa Oy"
@@ -189,9 +194,12 @@ params:
           - Advanced topics in UI
           - Methods of data mining
           - Machine learning
+          |
+          Extracurricular Activities
+            - Ambassador of EIT Digital Academy (2019-2021).
 
       - job: "Teaching Assistant"
-        company: "Eindhoven University of Technology"
+        company: "TU/e"
         companyUrl: https://www.tue.nl/en/
         date: "2019 - 2020"
         content: |
@@ -245,8 +253,10 @@ params:
           Major
           - 80% of Computer Science courses
           - 20% of Business and Economics courses
+          |
           Minor
           - Data Mining
+          |
           Extracurricular Activities
             - The Chief Executive Officer of HSE Sport Club. 
             - The Chairman of the HSE Student Campus Council.
@@ -256,10 +266,7 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Ambassador of EIT Digital Academy
-        content: I was representing EIT Digital for 2 years.
-        url: https://www.eitdigital.eu/
-      - title: EIT Digital Excellence Scholarship.
+      - title: EIT Digital Excellence Scholarship
         content: A merit-based scholarship provided by EIT Digital Academy.
         url: https://www.eitdigital.eu/
       - title: MLH Slash Hackathon
@@ -275,8 +282,8 @@ params:
     # title: "Custom Name"
     items:
       - title: Food allergy and non-IgE intolerance associations in KORA.
-        content: Data analysis of KORA Cohort for ABROGATE Consortium.
-        image: /images/projects/kora.png
+        #content: Data analysis of KORA Cohort for ABROGATE Consortium.
+        image: /images/projects/assoc.png
         badges:
           - "Population study"
           - "Causality"
@@ -286,7 +293,7 @@ params:
             url: https://www.helmholtz-munich.de/en/epi/cohort/kora
 
       - title: Software for solving high-dimensional statistics problems.
-        content: Algorithms for solving General Graphical problems.
+        #content: Algorithms for solving General Graphical problems.
         image: /images/projects/q2.png
         featured:
           name: Demo
@@ -300,7 +307,7 @@ params:
             url: https://github.com/Vlasovets/q2-gglasso
 
       - title: Generative modelling of microbial data.
-        content: Data simmulation of amplicon sequencing data and associated phenotype information.
+        #content: Data simulation of amplicon sequencing data and associated phenotype information.
         image: /images/projects/GAN.png
 #        featured:
 #          name: Demo V2
@@ -325,31 +332,31 @@ params:
     #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
     #   emailCaption: "Enter your email address"
     #   messageCaption: "Enter your message here"
-
-  footer:
-    recentPosts:
-      path: "blogs"
-      count: 3
-      title: Recent Posts
-      enable: true
-      disableFeaturedImage: false
-    socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      medium: https://medium.com/
-
-  # List pages like blogs and posts
-  listPages:
-    disableFeaturedImage: false
-
-  # Single pages like blog and post
-  singlePages:
-    readTime:
-      enable: true
-      content: "min read"
-    scrollprogress:
-      enable: true
+#
+#  footer:
+#    recentPosts:
+#      path: "blogs"
+#      count: 3
+#      title: Recent Posts
+#      enable: true
+#      disableFeaturedImage: false
+#    socialNetworks:
+#      github: https://github.com
+#      linkedin: https://linkedin.com
+#      twitter: https://twitter.com
+#      medium: https://medium.com/
+#
+#  # List pages like blogs and posts
+#  listPages:
+#    disableFeaturedImage: false
+#
+#  # Single pages like blog and post
+#  singlePages:
+#    readTime:
+#      enable: true
+#      content: "min read"
+#    scrollprogress:
+#      enable: true
 
   # For translations
   terms:
