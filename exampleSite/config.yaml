@@ -149,18 +149,12 @@ params:
     skills:
       enable: true
       title: "Core competences:"
-      |
       items:
         - "Software engineering (Python, Docker, Git)"
-
         - "Machine learning (Scikit-learn, Numpy, PyTorch)"
-
         - "High performance computing (Shell, Slurm)"
-
         - "Visualization (Plotly, Bokeh, JavaScript)"
-
         - "Statistics (R, SciPy, Stan)"
-
         - "Microbiome data analysis (QIIME2, Pandas)"
 
   # Experience

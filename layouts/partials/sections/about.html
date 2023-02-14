@@ -10,14 +10,14 @@
                 </div>
             </div>
             {{ end }}
-            <div class="col-sm-12 col-md-12 col-lg-8 content">
+            <div class="col-sm-12 col-md-12 col-lg-12 content">
                 {{ .Site.Params.about.content | markdownify }}
 
                 {{ if .Site.Params.about.skills.enable }}
                 {{ .Site.Params.about.skills.title }}
                 <ul>
                     {{ range .Site.Params.about.skills.items }}
-                    <li>{{ . | . | markdownify }}</li>
+                    <li>{{ . | markdownify }}</li>
                     {{ end }}
                 </ul>
                 {{ end }}
