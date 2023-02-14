@@ -149,17 +149,17 @@ params:
       
       Core competences:
       
-      Software engineering (Python, Docker, Git)
+      - Software engineering (Python, Docker, Git)
       
-      Machine learning (Scikit-learn, Numpy, PyTorch)
+      - Machine learning (Scikit-learn, Numpy, PyTorch)
       
-      High performance computing (Shell, Slurm)
+      - High performance computing (Shell, Slurm)
       
-      Visualization (Plotly, Bokeh, JavaScript)
+      - Visualization (Plotly, Bokeh, JavaScript)
       
-      Statistics (R, SciPy, Stan)
+      - Statistics (R, SciPy, Stan)
       
-      Microbiome data analysis (QIIME2, Pandas)
+      - Microbiome data analysis (QIIME2, Pandas)
 
 #    skills:
 #      enable: true
@@ -189,7 +189,7 @@ params:
         companyUrl: https://www.aalto.fi/en
         date: "2019 - 2020"
         content: |
-          Developing assignments, exams and giving seminars for the follwoing courses:
+          Developing assignments, exams and giving seminars:
           - Advanced topics in UI
           - Methods of data mining
           - Machine learning
@@ -198,11 +198,11 @@ params:
             - Ambassador of EIT Digital Academy (2019-2021).
 
       - job: "Teaching Assistant"
-        company: "Eindhoven University of Technology"
+        company: "TU Eindhoven"
         companyUrl: https://www.tue.nl/en/
         date: "2019 - 2020"
         content: |
-          Developing assignments, exams and giving seminars for the follwoing courses:
+          Developing assignments, exams and giving seminars:
           - Data Modeling
           - Data-Intensive Systems
 
