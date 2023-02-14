@@ -128,6 +128,12 @@ params:
       url: https://www.dropbox.com/s/1njoi79hcozw7h5/1CV_Vlasovets.pdf?dl=0
       download: true
       newPage: true
+    button_1:
+      enable: true
+      name: "Publications"
+      url: https://scholar.google.com/citations?user=ouy_AM4AAAAJ&hl=en
+      download: true
+      newPage: true
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
@@ -149,17 +155,17 @@ params:
       
       Core competences:
       
-         Software engineering (Python, Docker, Git)
+         Software engineering (Python, Docker, Git);
       
-         Machine learning (Scikit-learn, Numpy, PyTorch)
+         Machine learning (Scikit-learn, Numpy, PyTorch);
       
-         High performance computing (Shell, Slurm)
+         High performance computing (Shell, Slurm);
       
-         Visualization (Plotly, Bokeh, JavaScript)
+         Visualization (Plotly, Bokeh, JavaScript);
       
-         Statistics (R, SciPy, Stan)
+         Statistics (R, SciPy, Stan);
       
-         Microbiome data analysis (QIIME2, Pandas)
+         Microbiome data analysis (QIIME2, Pandas).
 
 #    skills:
 #      enable: true
@@ -225,7 +231,7 @@ params:
       - title: "PhD Candidate in Data Science"
         school:
           name: "Helmholtz Munich and LMU, Germany"
-          url: https://scholar.google.com/citations?user=ouy_AM4AAAAJ&hl=en
+          url: https://www.helmholtz-munich.de/en/icb
         date: "2021 - now"
         content: |-
           Causal estimation and simulation methods for gut microbiome networks 
