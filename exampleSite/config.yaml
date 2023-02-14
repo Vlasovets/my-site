@@ -54,7 +54,7 @@ markup:
 
 params:
   title: "Oleg Vlasovets"
-  description: Text about my cool site
+  description: Portfolio
   # staticPath: ""  # The path to serve the static files from
   favicon: "/fav.png"
 
@@ -259,7 +259,7 @@ params:
             - Statistical Learning Theory.
             - Database Technology.
 
-      - title: "Bachelor of Science in in Business Informatics"
+      - title: "Bachelor of Science in Business Informatics"
         school:
           name: "National Research University Higher School of Economics"
           url: https://www.hse.ru/en/
