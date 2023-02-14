@@ -53,7 +53,7 @@ Menus:
     #   weight: 2
 
 params:
-  title: "home"
+  title: "Hugo Profile"
   description: Portfolio
    staticPath: ""  # The path to serve the static files from
   favicon: "/fav.png"
@@ -120,7 +120,7 @@ params:
     title: "Oleg Vlasovets"
     subtitle: "Data Scientist / Guitarist"
     content: "Currently studying bacteria in the human's gut."
-    image: "/images/guitar.png"
+    image: /images/guitar.png
     roundImage: true # Make hero image circular | default false
     button:
       enable: true
@@ -141,7 +141,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/only_face.png"
+    image: /images/only_face.png
     content: |-
       I'm a data scientist who is fascinated by microbes and their impact on human health. I develop methods for describing this link and open-source software that assists researchers all over the world in performing cutting-edge microbiome data analysis.
     skills:
