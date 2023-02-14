@@ -149,10 +149,15 @@ params:
       title: "Core competences:"
       items:
         - "Software engineering (Python, Docker, Git)"
+
         - "Machine learning (Scikit-learn, Numpy, PyTorch)"
+
         - "High performance computing (Shell, Slurm)"
+
         - "Visualization (Plotly, Bokeh, JavaScript)"
+
         - "Statistics (R, SciPy, Stan)"
+
         - "Microbiome data analysis (QIIME2, Pandas)"
 
   # Experience
@@ -160,17 +165,6 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "PhD Candidate"
-        company: "Helmholtz Munich"
-        companyUrl: https://www.helmholtz-munich.de/en/
-        date: "Jan 2021 - present"
-        featuredLink:
-          enable: true
-          name: "View research"
-          url: https://scholar.google.com/citations?user=ouy_AM4AAAAJ&hl=en
-        content: "Thesis: Causal estimation and simulation methods for gut microbiome networks 
-        with applications in epidemiology and health."
-
       - job: "Data Scientist"
         company: "Napa Oy"
         companyUrl: https://www.napa.fi/
@@ -187,8 +181,8 @@ params:
           - Advanced topics in UI
           - Methods of data mining
           - Machine learning
-          
-          Extracurricular Activities
+                    
+          Volunteering
             - Ambassador of EIT Digital Academy (2019-2021).
 
       - job: "Teaching Assistant"
@@ -216,9 +210,18 @@ params:
     # title: "Custom Name"
     index: false
     items:
+      - title: "PhD Candidate in Data Science"
+        school:
+          name: "Helmholtz Munich and LMU, Germany"
+          url: https://scholar.google.com/citations?user=ouy_AM4AAAAJ&hl=en
+        date: "2021 - now"
+        content: |-
+          Causal estimation and simulation methods for gut microbiome networks 
+          with applications in epidemiology and health.
+
       - title: "Master in Machine Learning and Big Data Analytics"
         school:
-          name: "Eindhoven University of Technology, the Netherlands"
+          name: "Aalto University, Finland"
           url: https://www.aalto.fi/en
         date: "2018 - 2020"
         content: |-
@@ -226,9 +229,10 @@ params:
             - Bayesian Data Analysis.
             - Kernel Methods.
             - Data Visualization.
+
       - title: "Master in Data Science in Engineering"
         school:
-          name: "Aalto University, Finland"
+          name: "Eindhoven University of Technology, the Netherlands"
           url: https://www.tue.nl/en/
         date: "2018 - 2020"
         content: |-
@@ -236,6 +240,7 @@ params:
             - Advanced Algorithms.
             - Statistical Learning Theory.
             - Database Technology.
+
       - title: "Bachelor of Science in in Business Informatics"
         school:
           name: "National Research University Higher School of Economics"
