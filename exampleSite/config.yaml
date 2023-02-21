@@ -119,7 +119,7 @@ params:
 #    intro: "Hi, my name is"
     title: "Oleg Vlasovets"
     subtitle: "Data Scientist / Guitarist"
-    content: "Currently studying bacteria in the human's gut."
+    content: "Currently studying bacteria in human gut."
     image: /images/projects/guitar.png
     roundImage: true # Make hero image circular | default false
     button:
